@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22818685b58d83b439773cb429e20ff3, type: 3}
+  m_Name: Attack_Mid
+  m_EditorClassIdentifier: Assembly-CSharp::AttackData
+  attackName: Attack
+  zone: 1
+  damage: 50
+  hitStunSeconds: 0.3
+  startupFrames: 0.08
+  activeFrames: 0.12
+  recoveryFrames: 0.25
+  hitboxOffset: {x: 0.8, y: 0}
+  hitboxSize: {x: 2.4, y: 0.8}
+  knockback: {x: 3, y: 1}
+  animatorTrigger: Attack_Mid

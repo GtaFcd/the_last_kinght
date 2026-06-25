@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bed0606b0fa3f429a85ba4bf6f9fee, type: 3}
+  m_Name: PlayerInputConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputConfig
+  moveLeft: 106
+  moveRight: 108
+  jump: 0
+  flipKey: 111
+  attackButton: 117
+  dodgeButton: 105
+  shoveKey: 107
+  zoneUp: 104
+  zoneDown: 110
+  highThreshold: 0.8
+  lowThreshold: -0.5
